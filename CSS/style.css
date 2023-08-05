@@ -283,4 +283,11 @@ main .container .left .profile {
     border-radius: var(--border-radius);
 }
 
-.middle .create-post
+.middle .create-post input[type="text"] {
+    justify-self: start;
+    width: 100%;
+    padding-left: 1rem;
+    background: transparent;
+    color: var(--color-dark);
+    margin-right: 1rem;
+}
